@@ -1,6 +1,6 @@
 import json
 
-config = open('./confi.json', 'r')
+config = open('./config.json', 'r')
 conteudo = config.read()
 
 y = json.loads(conteudo)
