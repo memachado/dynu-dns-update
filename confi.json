@@ -1,0 +1,17 @@
+{
+    "credentials": {
+        "user": "",
+        "pass": ""
+    },
+    "endpoint": "https://api.dynu.com/nic/update?hostname=HOSTNAME&alias=ALIASES&myip=CURRENT_IP",
+    "hosts": {
+        "parannoide.pro.br": {
+            "update": true,
+            "aliases": [
+                "seer",
+                "kz4",
+                "flix"
+            ]
+        }
+    }
+}
