@@ -5,12 +5,12 @@
     },
     "endpoint": "https://api.dynu.com/nic/update?hostname=HOSTNAME&alias=ALIASES&myip=CURRENT_IP",
     "hosts": {
-        "parannoide.pro.br": {
+        "somehost.com": {
             "update": true,
             "aliases": [
-                "seer",
-                "kz4",
-                "flix"
+                "alias1",
+                "alias2",
+                "alias3"
             ]
         }
     }
