@@ -1,9 +1,5 @@
 import json
-import socket
 from requests import get
-import dns.edns
-import dns.message
-import dns.query
 import dns.resolver
 
 config_text = open('./config.json', 'r').read()
@@ -34,8 +30,7 @@ def update_dns_alias(host_name, alias_name):
     url = url.replace("_CURRENT_IP_", public_ip)
 
     response = get(url, auth=(config['credentials']['user'], config['credentials']['pass']))
-    print(response);
-    
+    print(response)
 
 if __name__ == "__main__":
     check_dns()
