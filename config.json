@@ -1,0 +1,16 @@
+{
+    "credentials": {
+        "user": "",
+        "pass": ""
+    },
+    "endpoint": "https://api.dynu.com/nic/update?hostname=_HOSTNAME_&alias=_ALIAS_&myip=_CURRENT_IP_",
+    "hosts": {
+        "somehost.com": {
+            "aliases": [
+                "alias1",
+                "alias2",
+                "alias3"
+            ]
+        }
+    }
+}

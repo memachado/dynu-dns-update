@@ -1,8 +1,9 @@
 import json
 from requests import get
 import dns.resolver
+import os
 
-config_text = open('./config.json', 'r').read()
+config_text = open((os.path.join(os.path.dirname(__file__),'config.json')), 'r').read()
 config = json.loads(config_text)
 
 public_ip = get('https://api.ipify.org?format=json').json()['ip']

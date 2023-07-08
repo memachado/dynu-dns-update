@@ -1,9 +1,8 @@
 # Define a imagem base
-FROM 3.11.4-alpine3.17
-
-WORKDIR /app
+FROM python:3.11.4-alpine3.17
 
 COPY . .
+COPY config.json config.json
 
 RUN pip install --no-cache-dir -r requirements.txt
 
