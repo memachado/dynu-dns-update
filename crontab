@@ -1,1 +1,1 @@
-*/5 * * * * python /app.py >> /logfile
+*/5 * * * * python /app.py > /logfile
